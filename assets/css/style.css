@@ -1,3 +1,5 @@
+/*Standard CSS on my About, Portfolio and Contact pages*/
+
 header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #ffffff;
@@ -69,6 +71,8 @@ h2 {
 }
 
 
+/*Customed My About Tab*/
+
 .boxed { 
     background-color: #ffffff;
     width: 960px;
@@ -89,7 +93,6 @@ h2 {
   outline: solid 9px palevioletred;
   transition: outline 0.6s linear;
   margin: 0.5em; 
-  outline-width: 9px;   
 }
 
 
@@ -101,7 +104,7 @@ img {
 }
 
 
-
+/* Customed My Portfolio Page*/
 
 .kwport {
   background-color: #ffffff;
@@ -118,50 +121,20 @@ img {
 }
 
 
-.tiger {
-  position: absolute;
-  text-align: center;
-  border: solid teal;
-  background-color: teal;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 402px;
-}
-
-.tiger:hover {
-  background-color: rgb(24, 179, 179);
-}
-
 
 .tigergame {
+  position: relative;
   float: left;
   margin-right: 30px;
   height: 170px;
 }
 
 
-
 .abstract {
+  position: relative;
   float: left;
   height: 170px;
 }
-
-
-.purpleabstract {
-  position: absolute;
-  text-align: center;
-  border: solid teal;
-  background-color: teal;
-  color: white;
-  width: 402px;
-
-}
-
-.purpleabstract:hover {
-  background-color: rgb(24, 179, 179);
-}
-
 
 .catwalk {
   position: relative;
@@ -172,35 +145,8 @@ img {
 }
 
 
-.fashionrunway {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: teal;
-  border: solid teal;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px
-
-}
-
-.fashionrunway:hover {
-  background-color: rgb(24, 179, 179);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 .japan {
+  position: relative;
   float: left;
   margin-top: 50px;
   height: 170px;
@@ -208,19 +154,38 @@ img {
 
 
 .tropical {
+  position: relative;
   float: left;
   margin-top: 50px;
   margin-right: 30px;
   height: 170px;
 }
 
+
 .puppy {
+  position: relative;
   float: left;
   margin-top: 50px;
   height: 170px;
 }
 
+h4 {
+  position: absolute;
+  bottom: -31px;
+  left: 0px;
+  background: teal;
+  color: white;
+  margin: 0;
+  width: 402px;
+  padding: 2px;
+}
 
+h4:hover {
+  background-color: rgb(24, 179, 179);
+}
+
+
+/* Customed My Contact Page*/
 
 input[type=text], select, textarea {
   width: 100%;
@@ -261,6 +226,8 @@ input[type=submit]:hover {
 }
 
 
+/*Fixed Footer on my About, Portfolio and Contact pages*/
+
 .footer {
   position: fixed;
   left: 0;
@@ -274,5 +241,4 @@ input[type=submit]:hover {
   padding: 20px;
   border-block-start-color: palevioletred;
   border-block-start-width: thick;
- 
 }
